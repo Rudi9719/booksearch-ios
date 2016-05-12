@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -197,7 +197,9 @@
                     <connections>
                         <outlet property="forgotPasswordView" destination="6OG-gi-Uhy" id="hjl-qw-k3l"/>
                         <outlet property="loginForm" destination="em4-cm-ql7" id="LnL-3q-Dhx"/>
+                        <outlet property="loginTest" destination="NWd-UV-IYo" id="utq-9B-zLy"/>
                         <outlet property="loginView" destination="G0a-98-Af9" id="S4n-u4-Owh"/>
+                        <outlet property="registerView" destination="38Z-iS-Pzl" id="uNx-28-dqF"/>
                         <outlet property="uName" destination="sHd-XX-bRM" id="L5M-MN-bg6"/>
                         <outlet property="uPass" destination="imZ-iQ-UZX" id="PYi-tK-gt7"/>
                     </connections>
@@ -309,12 +311,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Flz-7t-Abr">
-                                <rect key="frame" x="138" y="20" width="325" height="174"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hnk-T2-Sbj">
-                                <rect key="frame" x="138" y="202" width="325" height="378"/>
+                                <rect key="frame" x="138" y="32" width="325" height="378"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1WU-su-2jJ">
                                         <rect key="frame" x="104" y="90" width="198" height="30"/>
@@ -428,14 +426,11 @@
                         <color key="backgroundColor" red="0.24705882352941178" green="0.31764705882352939" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="hnk-T2-Sbj" firstAttribute="centerX" secondItem="U9w-Rv-kgG" secondAttribute="centerX" id="0du-aA-jAD"/>
-                            <constraint firstItem="Flz-7t-Abr" firstAttribute="centerX" secondItem="U9w-Rv-kgG" secondAttribute="centerX" id="7j2-Qt-2bZ"/>
-                            <constraint firstItem="Flz-7t-Abr" firstAttribute="top" secondItem="Fns-zg-XNl" secondAttribute="bottom" id="GCg-tM-9z3"/>
-                            <constraint firstItem="hnk-T2-Sbj" firstAttribute="top" secondItem="Flz-7t-Abr" secondAttribute="bottom" constant="8" id="wWO-k7-iOD"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="email" destination="SPg-QV-qwC" id="PIc-h8-N1G"/>
-                        <outlet property="firstName" destination="RMo-B4-Sbk" id="6R5-iZ-obs"/>
+                        <outlet property="firstName" destination="RMo-B4-Sbk" id="h3O-sT-h0I"/>
                         <outlet property="lastName" destination="lM0-ZV-QY2" id="hs8-dP-oVd"/>
                         <outlet property="password" destination="vsv-cc-mxd" id="wJi-NI-nXV"/>
                         <outlet property="registerButtonView" destination="ShT-Ue-mat" id="vSc-Ic-sOf"/>
@@ -453,6 +448,6 @@
         <image name="Logo" width="119" height="121"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="KmU-A6-PI5"/>
+        <segue reference="FwR-uW-mbn"/>
     </inferredMetricsTieBreakers>
 </document>

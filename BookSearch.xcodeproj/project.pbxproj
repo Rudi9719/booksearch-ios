@@ -508,7 +508,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BOOKSEARCH_BASE_API_URL = "http://localhost:8080/api/";
+				BOOKSEARCH_BASE_API_URL = "https://booksearch-1267.appspot.com/api";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BookSearch/Info.plist;
@@ -524,7 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				BOOKSEARCH_BASE_API_URL = "http://localhost:8080/api/";
+				BOOKSEARCH_BASE_API_URL = "https://booksearch-1267.appspot.com/api";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BookSearch/Info.plist;
